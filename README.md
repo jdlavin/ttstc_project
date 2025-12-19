@@ -23,3 +23,12 @@ The analysis uses five liquid ETFs representing major asset classes:
 | BND | Core Investment-Grade Bonds | massive |
 | VNLA | Short-Duration Income | massive |
 | VNQ | Listed Real Estate (REITs) | massive |
+
+## Requirements
+Please install the requirements using pip. Conda is preferable but riskfolio can only be 
+installed with pip at the moment.
+
+### Using pip
+pip install -r requirements.txt
+
+
