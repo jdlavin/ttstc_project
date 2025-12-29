@@ -25,8 +25,9 @@ The analysis uses five liquid ETFs representing major asset classes:
 | VNQ | Listed Real Estate (REITs) | massive |
 
 ## Open with Colab(Simpler) or using requirement file below in your own environment
-Use this link to open the notebook and run the cells sequentially
-to obtian the correct output.
+    1. Download the dataset from github.
+    2. Use this [link](https://colab.research.google.com/github/jdlavin/ttstc_project/blob/main/analysis.ipynb) to open the notebook and run the cells sequentially 
+       to obtian the correct output.
 
 ## Requirements
 Please install the requirements using pip. Conda is preferable but riskfolio can only be 
