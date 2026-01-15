@@ -12,6 +12,14 @@ This project implements core portfolio risk measurement and stress-testing techn
 - Multi-scenario portfolio analysis using historical data(Conservative, Balanced, Aggressive)
 - Loss distribution visualization with risk threshold overlays
 
+**Limitations**
+- Massive's free API tier allows only two years of the most recent historical data, excluding major market dislocations like COVID-19
+- The historical approach assumes the future will resemble the recent past and likely underestimates losses in extreme tail events
+- Liquidity costs and bid-ask spreads are not accounted for; actual losses during portfolio rebalancing or liquidation would be higher
+- Only historical simulation is used; parametric and Monte Carlo approaches are not included
+- VaR does not measure the severity of losses beyond the confidence threshold (CVaR would provide this insight)
+- Correlations between assets are assumed stable but typically increase during market stress, reducing diversification benefits when most needed
+
 ## Portfolio Construction
 
 The analysis uses five liquid ETFs representing major asset classes:
