@@ -43,5 +43,3 @@ installed with pip at the moment.
 
 ### Using pip
 pip install -r requirements.txt
-
-
