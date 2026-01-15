@@ -9,7 +9,7 @@ This project implements core portfolio risk measurement and stress-testing techn
 
 **Key Capabilities:**
 - Historical VaR and CVaR calculation at 95% and 99% confidence levels
-- Multi-scenario portfolio analysis (Conservative, Balanced, Aggressive)
+- Multi-scenario portfolio analysis using historical data(Conservative, Balanced, Aggressive)
 - Loss distribution visualization with risk threshold overlays
 
 ## Portfolio Construction
